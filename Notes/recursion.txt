@@ -11,3 +11,11 @@ types of recursive calls:
 1. computation comes before recursion equation 
 2. recursion equation comes before computation 
 
+time complexity of recursion:
+1. calculate the number of function calls using stack or tree 
+2. calculate the time complexity for each call 
+3. total time will be multiplication of both 
+
+how to convert the loop into recursion?
+
+
