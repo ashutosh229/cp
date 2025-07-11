@@ -1,0 +1,8 @@
+errors and verdicts:
+correct answer 
+compilation error 
+memory limit exceeded(mostly 256 MB, not much memory optimization is seen in problems)
+runtime errors(illegal access of memory, undefined operation, )
+time limit exceeded (only execution time included and not compilation time)
+time limit exceeded in recursion (when recursion is taking too long time)
+runtime error in recursion (when the stack is full)

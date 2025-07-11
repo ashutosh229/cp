@@ -1,0 +1,4 @@
+pointers
+contest
+hard question on prefix sum and hashing 
+ 

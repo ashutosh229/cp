@@ -1,0 +1,19 @@
+inbuilt functions:
+swap(a,b);
+max(a,b);
+min(a,b);
+__gcd(a,b);
+minmax_element(arr, arr + n) {returns reference, so need to *}
+
+
+
+concepts:
+breaking the string into space separated words (using cin)
+converting the lowercase into uppercase(small - a = big - A)(distance between character)
+binary strings
+gcd with 0 is the number itself 
+gcd of three numbers is the gcd of two and then the gcd of the answer with third 
+gcd of array 
+is palindrome(mirror image concept)
+can palindrome pe possible by rearranging (use the concept of "(one odd and others even) or (none odd)")
+

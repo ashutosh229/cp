@@ -1,0 +1,12 @@
+getline(cin,str1);
+cursor movements in case of cin and cout and getline;
+cin.ignore();
+
+str.push_back(c)(time complexity is constant);
+str = str + char;(time complexity depends on the size of the string)
+therefore, push_back function is better 
+
+dealing with large numbers:
+take the number in the input as string 
+when you need to perform operations, convert into number (not possible via functions, have to do manually)
+int value_index = (int)str[index] - '0' (method to convert)

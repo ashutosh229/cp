@@ -1,0 +1,16 @@
+pre-computation techniques:(these techniques requires space so we are not dealing with space here but time)
+-storing values in the array (via array like in factorial, array frequency counting problem, Fibonacci problem)
+-hashing technique, using an array (we always hash numbers)
+	-hashing positive numbers: do it normally 
+	-hashing negative numbers: add the value abs(min(A)) to the entire array A and then find the hash of A'
+-prefix sum in 1D array (prefix_sum[i] = prefix_sum[i-1] + ar[i])
+-prefix sum in 2D array (prefix_sum[i][j] = ar[i][j] + prefix_sum[i-1][j] + prefix_sum[i][j-1] - prefix_sum[i-1][j-1];)
+-forward sum or prefix sum: used in problems when we want to calculate on range
+-backward sum or suffix sum: used in problems when we want to calculate on everything except the range(take forward sum and backward sum and use both to find the exclusive) 
+-prefix sum + hashing concept (very very important for tough questions)
+-
+
+important point:
+-taking the index of array from 1 and not from 0 requires to declare global array 
+-the above point is useful when dealing with prefix sum as it requires to have 0th index also and in case of global, that is 0, we dont need to compute
+-when we want to take the index from 1 to n, then it is important to have the size of the array larger than n so take it like n+10 instead of n+1

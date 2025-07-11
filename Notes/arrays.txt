@@ -1,0 +1,22 @@
+concept of arrays:
+segmentation fault: when oob index is accessed 
+character arrays should not be used, always use strings 
+matrix concept: a[4][3][2][2] 
+local array size: order of 10 power 5
+global array size: order of 10 power 7
+global array size should be declared as a constant 
+
+pass by value(int n)
+pass by reference(int &n)
+arrays are passed by reference by default
+strings are passed by value by default 
+when passing 1D arrays in functions, we can or not enter the size with the array i.e. (int a[n]) or (int a[], int n)
+when passing 2D arrays in functions, we have to pass the dimension after the 1st dimension i.e. (int a[][2][3], int n) or (int a[4][2][3])
+
+while passing arrays in functions, we never pass them from the main to the function 
+we make the global array and pass them:
+const int max_size = 1e5+10;
+int a[max_size]
+void access(){
+a[0] = 1;
+}

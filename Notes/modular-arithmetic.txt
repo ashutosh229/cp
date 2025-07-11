@@ -1,0 +1,14 @@
+modular arithmetic:
+1. (a+b)%m = ((a%m)+(b%m))%m
+2. (a*b)%m = ((a%m)*(b%m))%m
+3. (a-b)%m = ((a%m)-(b%m)+m)%m 
+4. (a/b)%m = ((a%m)*(binverse%m))%m  
+5. we can find the binverse(multiplicative inverse) of b using techniques like modular arithmetic and binary exponentiation 
+6. we cannot store and print answers for large numbers and therefore we always report the answer as the modulo of some number
+7. but we cannot do it after finding the final answer as the final answer will not be correct due to overflow due to largeness, and therefore we have to perform the modulo in the intermediate steps 
+8. we will perform the modulo in the intermediate steps using the properties learned 
+9. modulo by M always gives the answer from [0,M-1]
+10. why most of the questions have the value of M as (10power9 + 7)?
+-It is very close to the max value of the integer datatype which allows to get the value in the integer datatype, causing less storage, less code complexity and increases the simplicity 
+-It is a prime number and causes us to find the multiplicative inverse of the numbers easily 
+11. most value of M are always prime due to the factor of finding the MMI
