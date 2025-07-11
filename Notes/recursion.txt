@@ -1,0 +1,13 @@
+ways of imagining recursion:
+1. stack(linear-flow)
+2. recursion tree(non-linear flow)
+
+parts of recursion:
+1. base condition 
+2. recursive equation
+3. computation
+
+types of recursive calls:
+1. computation comes before recursion equation 
+2. recursion equation comes before computation 
+
