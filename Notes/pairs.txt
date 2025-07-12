@@ -1,0 +1,11 @@
+pair<int,string> p = {2,"abc"};
+int first = p.first;
+int second = p.second;
+
+pair<int,string> p1 = p; //soft copy 
+pair<int,string> &p1 = p; //hard copy 
+
+
+
+
+

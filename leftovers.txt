@@ -1,4 +1,5 @@
 pointers
 contest
 hard question on prefix sum and hashing 
- 
+selection sort 
+merge sort 

@@ -1,0 +1,28 @@
+maps are ordered i.e. keys are stored in ordered form 
+maps cannot contain duplicate keys i.e. if entered, value is overriten
+map<int,string> m;
+m[1] = "abc"; // log(n) where n is the current size of the map (implemented by RBT)
+m[1]; //only declaration // log(n) // value gets the default value 
+accesing pair from map takes log(n) time 
+
+
+
+
+m.insert({1,"abc"}); //logn
+m.size();
+auto it = m.find(3); //log(n) //if the key is present, then returns the iterator and if not then returns the m.end()
+m.erase(key); //logn
+m.erase(it); //if the it or key do not exist then it gives the segmentation fault 
+m.clear(); //clears the map 
+
+dependency of time complexity on key:
+if the key is string then the insertion takes the time of key.size() + log(n) 
+
+
+
+
+
+
+
+
+
