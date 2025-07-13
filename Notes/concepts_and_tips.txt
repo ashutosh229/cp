@@ -9,6 +9,12 @@ number of steps needed to reduce n to 0 via division by x = logx(n)
 begin();
 end();
 
+tips:
+we need to print the container in reverse due to order (insert the reverse order initially and print in forward)
+when you need to check a lot of things against something, use maps for creating mapping for checking (check the paranthesis 
+problem for reference)
+
+
 
 
 
@@ -21,7 +27,7 @@ gcd of three numbers is the gcd of two and then the gcd of the answer with third
 gcd of array 
 is palindrome(mirror image concept)
 can palindrome pe possible by rearranging (use the concept of "(one odd and others even) or (none odd)")
-we need to print the container in reverse due to order (insert the reverse order initially and print in forward)
+
 
 
 comparison of composite datatypes:
