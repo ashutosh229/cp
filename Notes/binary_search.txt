@@ -7,4 +7,14 @@ monotonic functions:
 
 binary search:
 -only works on monotonic functions 
--
+-logn time complexity due to half reduction of search space
+
+applications:
+lower bound
+upper_bound 
+
+
+
+
+
+
