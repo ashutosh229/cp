@@ -11,6 +11,10 @@ sets:
     - unique/finding presence + needed less time complexity (unordered)
     - order + duplicacy (multiset)
 
+stacks:
+    - paranthesis matching 
+    - next greater element
+
 which data structure to choose when? 
 -order needed: set, map, multiset, multimap 
 -duplicacy needed: multiset, multimap 

@@ -6,8 +6,47 @@ __gcd(a,b);
 minmax_element(arr, arr + n) {returns reference, so need to *}
 numOfDigits(n) = log10(n) + 1
 number of steps needed to reduce n to 0 via division by x = logx(n)
+
 begin();
 end();
+
+sort(initial_address, final_address, comparator_function); // nlogn //the comparator_function has some different working   
+lower_bound(initial_address, final_address, element); // log(n) // returns pointer for array and iterator for vector
+upper_bound(initial_address, final_address, element); //log(n) // returns pointer for array and iterator for vector
+lower_bound/upper_bound(initial_address, final_address, element); //n //not used in sets and maps like this due to high time complexity
+set.lower_bound(element); //logn //used in sets
+map.lower_bound(key); //logn //gets applied on the key //used in maps 
+lower_bound and upper_bound can be applied to pairs, strings also
+
+min_element(initial_address, final_address) //returns address (pointer for array and iterator for vector) // n 
+max_element(initial_address, final_address) //returns address (pointer for array and iterator for vector) // n
+accumulate(initial_address, final_address, initial_sum) //returns the sum(container) + initial_sum // n
+count(initial_address, final_address, element) //returns the count of the element // n
+reverse(initial_address, final_address); //reverses the vector/array on point // n
+find(initial_address, final_address, element) //returns the iterator/pointer of the element if found and v.end() if not found 
+// n for others and logn for sets/maps and 1 for unordered 
+
+lambda functions: 
+[](int x){return x/2}(2); //calling a lambda function directly 
+auto disum = [](int x,int y){return (x+y);}; //declaring a lambda function 
+disum(2,3); //calling a declared lambda function  
+
+all_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for all 
+any_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for any 
+none_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for none 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 tips:
 we need to print the container in reverse due to order (insert the reverse order initially and print in forward)

@@ -1,0 +1,10 @@
+monotonic functions:
+-which follows some given order 
+-increasing 
+-decreasing 
+-predicate with initial false and then true 
+-predicate with initial true and then false 
+
+binary search:
+-only works on monotonic functions 
+-
