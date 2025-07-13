@@ -1,0 +1,10 @@
+set<string> s; //stores the elements in the sorted form and do not store the duplicate elements  
+
+
+s.insert() // log(n)
+auto it = s.find("abc") // log(n) 
+s.erase("abc") // log(n) 
+
+
+
+

@@ -21,4 +21,13 @@ gcd of three numbers is the gcd of two and then the gcd of the answer with third
 gcd of array 
 is palindrome(mirror image concept)
 can palindrome pe possible by rearranging (use the concept of "(one odd and others even) or (none odd)")
+comparison of composite datatypes:
+     - pairs (first compare the first and if same, then the second)
+     - sets/multisets (first compare the first and if same, then the second)
+     - unordered_sets (cannot compare using < and >, must define some custom comparison logic)
+     - maps/multimaps (first compare the first key and if same, then go the second key)
+     - unordered_maps (cannot compare using < and >, must define some custom comparison logic)
+     - vectors (first compare the first and if same, then do for the second)
+
+    
 

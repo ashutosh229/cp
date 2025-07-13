@@ -1,0 +1,15 @@
+functions of both the type of maps are same 
+
+the differences between both the type of maps are:
+    - the order of the keys is random 
+    - maps are implemented using RBT but the unordered maps are implemented using hash tables 
+    - the time complexity of the operations in case of unordered maps is O(1) and not O(long(n)) 
+    - used when the order is not important but we want less time complexity 
+    - we cannot use all the data types here as keys and can only use all the basic data types and not types like vectors, set, pair, etc. 
+
+multimap stores duplicate keys also 
+keys are in sorted order
+if duplicacy is allowed and keys are in sorted order, then if two keys are same, then how they will be printed(not need to know 
+because we will not be using multimap, we will be using map as a multimap in questions)
+
+

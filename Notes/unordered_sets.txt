@@ -1,0 +1,19 @@
+the all the functions of sets can be used in unordered sets 
+
+the differences between both the type of sets:
+- time complexity of the operation is O(1) 
+- the order is random and not sorted 
+- we cannot keep the type of the element as a non-primitive data type like vector or pair 
+- sets are implemented using RBT but unordered sets are implemented using hash tables 
+
+multiset allows us to store multiple or duplicate elements in the set 
+the time complexity of the operations in case of multiset is O(logn)
+s.find() for multiset returns the iterator of the first element 
+s.erase("abc") erases all the elements in the multiset 
+s.erase(it) erases only the element to which the it is pointing
+
+
+
+
+
+
