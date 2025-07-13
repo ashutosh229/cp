@@ -21,6 +21,9 @@ gcd of three numbers is the gcd of two and then the gcd of the answer with third
 gcd of array 
 is palindrome(mirror image concept)
 can palindrome pe possible by rearranging (use the concept of "(one odd and others even) or (none odd)")
+we need to print the container in reverse due to order (insert the reverse order initially and print in forward)
+
+
 comparison of composite datatypes:
      - pairs (first compare the first and if same, then the second)
      - sets/multisets (first compare the first and if same, then the second)
@@ -28,6 +31,41 @@ comparison of composite datatypes:
      - maps/multimaps (first compare the first key and if same, then go the second key)
      - unordered_maps (cannot compare using < and >, must define some custom comparison logic)
      - vectors (first compare the first and if same, then do for the second)
+
+iteration of containers:
+- vector/set/map/multimap/multiset:
+    - forward: 
+        - size 
+        - it (dont need to erase)
+    - backward: 
+        - size
+        - it (need to erase, use --it)
+        - it (dont need to erase, but use --it and not it-1)
+
+- pair (dont need to)
+
+- stacks:
+    - forward:
+        - size (or !is.empty())
+        - it 
+    - backward:
+        - 
+
+- queues:
+    - forward:
+        - size (or !is.empty()) 
+        - it 
+    - backward: 
+        - 
+
+- unordered_map/unordered_set:
+    - forward 
+        - it 
+    - backward
+        - copy to vector and reverse
+
+
+
 
     
 

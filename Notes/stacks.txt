@@ -1,0 +1,11 @@
+stacks:(stack<string> st;)
+-size 
+-top element
+-push 
+-pop 
+-top 
+
+queue:(queue<string> qu;)
+-push 
+-pop 
+-front

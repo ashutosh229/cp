@@ -1,7 +1,10 @@
 maps:
     - order + frequency (ordered)
     - frequency + needed less time complexity + using simple data types as keys (unordered) 
-    - order + frequency + duplicacy (multset)
+    - order + frequency + duplicacy (ordered, with value as vector/set)
+    - pairing + order (ordered)
+    - pairing + time (unordered)
+    - pairing + order + duplicacy (ordered, with value as vector/set)
 
 sets:
     - order + unique (ordered) 
