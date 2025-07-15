@@ -3,6 +3,7 @@ swap(a,b);
 max(a,b);
 min(a,b);
 __gcd(a,b);
+pow(x,y);
 minmax_element(arr, arr + n) {returns reference, so need to *}
 numOfDigits(n) = log10(n) + 1
 number of steps needed to reduce n to 0 via division by x = logx(n)
@@ -34,7 +35,7 @@ disum(2,3); //calling a declared lambda function
 all_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for all 
 any_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for any 
 none_of(initial_address, final_address, lambda_function) //returns true if lambda_function returns true for none 
- 
+
 
 
 
@@ -52,6 +53,10 @@ tips:
 we need to print the container in reverse due to order (insert the reverse order initially and print in forward)
 when you need to check a lot of things against something, use maps for creating mapping for checking (check the paranthesis 
 problem for reference)
+
+cout << fixed << setprecision(3) << d << endl; // we can fix the number of digits after the decimal using this 
+
+
 
 
 

@@ -5,6 +5,7 @@ maps:
     - pairing + order (ordered)
     - pairing + time (unordered)
     - pairing + order + duplicacy (ordered, with value as vector/set)
+    - mapping (all type of maps, but prefer unordered)
 
 sets:
     - order + unique (ordered) 

@@ -12,9 +12,17 @@ types of recursive calls:
 2. recursion equation comes before computation 
 
 time complexity of recursion:
-1. calculate the number of function calls using stack or tree 
-2. calculate the time complexity for each call 
+1. calculate the number of function calls using stack or tree(see the reference below) 
+2. calculate the time complexity for each call(easy) 
 3. total time will be multiplication of both 
+
+how to find the number of function calls using tree(mostly we use tree, stack is also a tree)?
+-draw the tree 
+-find the number of nodes at each level (number of nodes as function of level)
+-sum the number of nodes at each level to get the total nodes (summation formulae)
+-number of function calls = number of nodes 
+
+
 
 how to convert the loop into recursion?
 
