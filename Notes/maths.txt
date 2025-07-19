@@ -3,4 +3,14 @@ GCD and LCM:
 - lcm: take the max power of the prime factors of both the numbers
 - relation between gcd and lcm of both the numbers 
 - if we know some algorithm to find the gcd, then we know the same for lcm also 
+- ways of finding gcd:
+    - euclidean algorithm (log n)
+- applications of gcd:
+    - finding the gcd between more than 2 numbers: ans = gcd(gcd(a,b),c)
+    - finding the min. fraction or lowest term of a fraction? (divide the num and denom by gcd)
+
+Binary exponentiation:
+- it is an algorithm for finding the power of a to the b 
+- we need this algorithm because the pow(a,b) function returns the answer in double and double cannot be used to store 
+large numbers precisely and therefore we cannot use the function for large numbers 
 - 
