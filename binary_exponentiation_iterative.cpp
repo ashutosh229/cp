@@ -10,9 +10,9 @@ int iterativeBinaryExponentiation(int a, int b)
     {
         if (b & 1)
         {
-            ans = ans * currentPower;
+            ans = (ans * currentPower)%M;
         }
-        currentPower = currentPower * ccurrentPower;
+        currentPower = (currentPower * ccurrentPower)%M;
         b = b >> 1;
     }
     return ans;
