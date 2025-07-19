@@ -7,6 +7,9 @@ pow(x,y);
 minmax_element(arr, arr + n) {returns reference, so need to *}
 numOfDigits(n) = log10(n) + 1
 number of steps needed to reduce n to 0 via division by x = logx(n)
+__builtin_popcount(j) counts the number of set bits in j if j is int type 
+__builtin_popcountll(j) counts the number of set bits in j if j is long long int type 
+
 
 begin();
 end();

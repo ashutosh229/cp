@@ -1,0 +1,112 @@
+some important facts:
+- not(complement) operator is ~ and not !
+- even number has last bit 0 
+- odd number has last bit 1 
+- n bits i.e. 2 power n total numbers possible
+- n bits i.e. max number possible = pow(2,n) - 1;
+- pow(2,n) = 1<<n //useful when it comes to finding the power of 2
+- LSB: rightmost bit or 0th index bit 
+- MSB: leftmost bit or nth index bit
+- bit is set i.e. bit is 1 
+- bit is unset i.e. bit is 0 
+- finding ith bit can be done by either trick 1 or right shift transformation
+- counting the number of set bits can be done in two ways:
+    - use the loop and count
+    - use the builtin function to get the direct count
+- counting the number of unset bits can be done via (total_bits-set_bits)
+- how to count? counter = counter + ith_bit where ith_bit can be found by either of the two ways
+- 
+
+important questions:
+- how to find whether a bit is set or unset ? (use the trick 1)
+- how to find LSB ? (use trick 1)
+- how to find MSB ? (use trick 1)
+- how to find any ith bit ? (use trick 1)
+- how to find the even or odd number ? (use trick 1)
+[all the above 5 questions are actually the same thing i.e. finding the ith bit somehow]
+[since its about finding the ith bit, we can also use the right shift transformation]
+- how to set a bit? (use trick 1)
+- how to unset a bit? (use trick 1)
+- how to toggle the bit? (use trick 1)
+[all the above 3 questions are nearly the same thing i.e. changing the bit using trick 1]
+- how to find the large powers of two ? (use the 1<<n formula)
+- how to calculate the number after being overflowed? (see the reference of 1<<32)
+- 
+
+
+important transformations:
+- getting the ith bit as 1 and rest as 0: (1<<i)
+- getting the first i bits as 1 and rest as 0: (1<<i) - 1 
+- getting the ith bit a 0 and rest as 1: !(1<<i)
+- getting the first i bits as 0 and rest as 1: !((1<<i)-1)
+- getting all the bits as 0: take 0 
+- getting all the bits as 1: (1<<i) or (!(1<<i))
+- getting the ith bit in the LSB and all others as 0: (n>>i) (important because bit==number then, also called the right shift transformation)
+- 
+
+important operators:
+- and 
+- or 
+- xor (same mein 0 and different mein 1)
+- not 
+- left shift: << (padding kardo 0 ze)
+- right shift: >> (gayab kardo shifted bits)
+
+memory representation of numbers:
+- integer: 32 bits 
+- 
+
+signed and unsigned integers:
+
+
+table for shortcuts:
+1:
+    - and: num 
+    - or: 1
+    - xor: !num
+    - not: 0
+    - left shift: if done n times, then answer is pow(2,n)
+    - right shift: 0
+0:
+    - and: 0 
+    - or: num
+    - xor: num 
+    - not: 1 
+    - left shift: 0 
+    - right shift: 0
+
+awesome tricks: (reduced from the table of shortcuts)
+1. 
+number diya hain 
+kya operation lagega woh find karo
+kis number ke sath lagega woh find karo (kaise find karein?)
+operation karo 
+ek number aya 
+us number ko check karo: (kya condition lagegi)
+    - if (condition(number)==true){do something} (kya karenge)
+    - else {do something}
+
+in the above trick:
+- how to find the operation and the number? i.e. use karo table ko and dimag ko (use constant and func rule two times, one 
+for 0 and another for 1 and get two methods for solving the problem)
+- how to find the condition applied? i.e. question pe depend karta hain 
+- how to find what to do? i.e. question mein diya huya hoga 
+
+2. 
+subtracting one from a number:  
+adding one to a number
+multiplication of a number by one 
+division of a number by one 
+
+subtracting zero from a number 
+adding zero to a number 
+multiplication of zero to a number 
+dividing number by zero 
+
+
+
+
+
+
+
+
