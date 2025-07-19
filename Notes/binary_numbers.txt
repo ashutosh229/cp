@@ -127,6 +127,11 @@ for 0 and another for 1 and get two methods for solving the problem)
 - if the number of things to be bitmasked <=32 -> use int 
   if the number of things to be bitmasked >32 and <=64 -> use long long int 
   if the number of things to be bitmasked >64 -> use the trick 
+- see the example of workers problem for understanding better 
+
+4. recursion and backtracking using bitmasking:
+- in backtracking, take and not_take are involved i.e. two operations and that too of opposite sense i.e. very similar 
+to 0 and 1 i.e. two and of oppositive type 
 - 
 
 
