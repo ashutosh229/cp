@@ -22,7 +22,7 @@ divisors, their count, their sum:
     - there exists atleast one prime number before sqrt(n) where n is composite
 - finding by brute force (O(n)) 
 - finding by mirror method (O(sqrt(n))) 
-- finding by prime factorization formula (O(1)) (O(f(n)){prime-factorization} + O(1){formula})
+- finding by prime factorization formula (O(1)) (O(sqrt(n)){prime-factorization} + O(1){formula})
  
 primality:
 - prime numbers: count == 2
@@ -30,9 +30,14 @@ primality:
 - if we can find count optimally, we can find primality optimally
 - finding primality using brute force (O(n))
 - finding primality using mirror method (O(sqrt(n))) 
-- finding primality using prime factorization method (O(f(n)){prime-factorization} + O(1){formula})
+- finding primality using prime factorization method (O(sqrt(n)){prime-factorization} + O(1){formula})
 
 prime factorization:
 - finding prime factorization using O(n) approach 
-- finding prime factorization using O(sqrt(n)) approach 
+- finding prime factorization using O(sqrt(n)) approach
+
+sieves algorithm:
 - 
+
+
+
