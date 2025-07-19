@@ -1,0 +1,6 @@
+GCD and LCM:
+- gcd: take the min power of the prime factors of both the numbers 
+- lcm: take the max power of the prime factors of both the numbers
+- relation between gcd and lcm of both the numbers 
+- if we know some algorithm to find the gcd, then we know the same for lcm also 
+- 

@@ -135,6 +135,8 @@ to 0 and 1 i.e. two and of oppositive type
 - for reference, see the subset generation problem 
 - 
 
+5. 
+
 
 
 
