@@ -33,4 +33,6 @@ primality:
 - finding primality using prime factorization method (O(f(n)){prime-factorization} + O(1){formula})
 
 prime factorization:
+- finding prime factorization using O(n) approach 
+- finding prime factorization using O(sqrt(n)) approach 
 - 
