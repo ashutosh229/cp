@@ -16,3 +16,21 @@ large numbers precisely and therefore we cannot use the function for large numbe
 - see the program for algorithm (recursive approach)
 - see the iterative program for algorithm (iterative algorithm)
 
+divisors, their count, their sum:
+- properties:
+    - smallest divisor of a number is always a prime number
+    - there exists atleast one prime number before sqrt(n) where n is composite
+- finding by brute force (O(n)) 
+- finding by mirror method (O(sqrt(n))) 
+- finding by prime factorization formula (O(1)) (O(f(n)){prime-factorization} + O(1){formula})
+ 
+primality:
+- prime numbers: count == 2
+  composite numbers: count>2
+- if we can find count optimally, we can find primality optimally
+- finding primality using brute force (O(n))
+- finding primality using mirror method (O(sqrt(n))) 
+- finding primality using prime factorization method (O(f(n)){prime-factorization} + O(1){formula})
+
+prime factorization:
+- 
