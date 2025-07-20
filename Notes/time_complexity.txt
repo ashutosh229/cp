@@ -17,4 +17,5 @@ type of time complexites:
 - nlogn: something extra in search space division 
 - n2logn: something extra extra in search space division 
 - 2powern or exponential: in case of tree division algorithms (recursion, backtracking)
-- 
+- nlogn: divisors/factors finding problem by sieve 
+- nlog(logn): sieve algorithm 

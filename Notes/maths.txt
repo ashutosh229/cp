@@ -22,7 +22,8 @@ divisors, their count, their sum:
     - there exists atleast one prime number before sqrt(n) where n is composite
 - finding by brute force (O(n)) 
 - finding by mirror method (O(sqrt(n))) 
-- finding by prime factorization formula (O(1)) (O(sqrt(n)){prime-factorization} + O(1){formula})
+- finding by prime factorization formula (O(f(n)){prime-factorization} + O(1){formula}{using map})
+- finding by sieve method (O(nlogn))
  
 primality:
 - prime numbers: count == 2
@@ -30,7 +31,7 @@ primality:
 - if we can find count optimally, we can find primality optimally
 - finding primality using brute force (O(n))
 - finding primality using mirror method (O(sqrt(n))) 
-- finding primality using prime factorization method (O(sqrt(n)){prime-factorization} + O(1){formula})
+- finding primality using prime factorization method (O(f(n)){prime-factorization} + O(1){formula}{using map})
 
 prime factorization:
 - finding prime factorization using O(n) approach 
@@ -41,5 +42,21 @@ sieves algorithm:
 - for algorithm, see the program 
 - time complexity: n*(log(logn)) 
 - we can also find lowest prime and highest prime upto some number using the sieve algorithm 
-- 
+
+MMI(Modular Multiplicative Inverse):
+- when a*b=1, then b is called the MI of a
+  when (a*b)%M=1, then b is called the MMI of a
+- b or MMI is defined when a and M are coprime i.e. __gcd(a,M) == 1
+- b depends on (a,M)
+- the range of b is from 1 to M-1
+- (a/b)%M = (a*(b-1))%M 
+          = ((a%M)*((b-1)%M))%M 
+          = ((a%M)*(MMI of b))%M 
+- method to find MMI of a with M:
+    - use loop from 1 to M-1 and apply the condition of modulo (O(M)) 
+    - using fermat's little theorem, with binaryExp (O(logn)) {when M is prime and a is not the multiple of M}
+    - using extended euclidean algorithm (o(logn)) {when M is not prime and a is not the multiple of M}
+- applications of MMI:
+    - in questions involving permutations and combinations 
+
 
