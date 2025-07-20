@@ -35,9 +35,11 @@ primality:
 prime factorization:
 - finding prime factorization using O(n) approach 
 - finding prime factorization using O(sqrt(n)) approach
+- finding prime factorization using O(log(n)) approach (sieve algorithm variation)
 
 sieves algorithm:
 - for algorithm, see the program 
 - time complexity: n*(log(logn)) 
-
+- we can also find lowest prime and highest prime upto some number using the sieve algorithm 
+- 
 
