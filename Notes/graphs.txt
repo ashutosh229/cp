@@ -1,0 +1,39 @@
+Terminologies:
+- tree: graph which have the following property: 
+    - containing no cycle 
+    - m = n -1 
+- connected component in undirected graph: sirf alag alag hona chahiye 
+- strongly connected component in directed graph: ek vertex se har kisi dusre vertex pe jana chahiye 
+- forest: collection of tree or collection of connected components 
+- height of node: leaf node se kitna upar hain 
+- depth of node: root node se kitna neeche hain 
+- height and depth of tree: height and depth of root node 
+- LCA: Lowest Common Ancestor i.e. upar jatein waqt jo sabse pehla common parent milega 
+- max number of edges in a graph = Vc2 
+- 
+
+Representation and input taking while dealing with graphs:
+1. Adjancency Matrix:
+- you know it already 
+- while taking input, we have been given:
+N M 
+v11 v12 
+v21 v22 
+v31 v32 
+......
+vm1 vm2
+where N is the number of nodes, M is the number of edges and then in the next M lines, we have been given about the edges 
+- we dont use this way until told in the question due to the advantages which it have like space complexity and all 
+
+2. Adjancency List:
+- you already know about it  
+- for undirected graphs, O(V+2E) ~ O(V+E) 
+- for directed graphs, O(V+E)
+- therefore, the space complexity becomes O(V+E) 
+- this is used in questions since it takes less space
+- we can use either vector of vectors or array of vectors to make the adjList 
+- for storing weights also, we use pairs 
+
+Traversals:
+1. DFS:
+- 
