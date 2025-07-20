@@ -10,6 +10,7 @@ Terminologies:
 - height and depth of tree: height and depth of root node 
 - LCA: Lowest Common Ancestor i.e. upar jatein waqt jo sabse pehla common parent milega 
 - max number of edges in a graph = Vc2 
+- visited array: takes care of the visit to the nodes 
 - 
 
 Representation and input taking while dealing with graphs:
