@@ -42,5 +42,12 @@ Traversals:
 - finding cyclicity using DFS 
 - matrix problems related to graphs:
     - the matrix is not the Adjancency matrix of the graph 
-    - we have to encode the matrix in the form of graph, using the conditions given in the problem 
+    - we have to encode the matrix in the form of graph
+    - how to encode ? 
+        - for encoding the matrix into graph, we need nodes and edges 
+        - nodes: each cell in the matrix, following some condition (cond1), is a node 
+        - edges: from each node, we move in 4 directions (if specified, then 8)(cond2), use some condition (cond3), and make the edge 
+        - therefore, we need a cond1 for nodes and cond2 and cond3 for edges
     - after the encoding, we can solve the graph problem  
+
+
