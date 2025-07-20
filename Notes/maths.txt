@@ -37,7 +37,7 @@ prime factorization:
 - finding prime factorization using O(sqrt(n)) approach
 
 sieves algorithm:
-- 
-
+- for algorithm, see the program 
+- time complexity: n*(log(logn)) 
 
 
