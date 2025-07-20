@@ -38,6 +38,9 @@ Traversals:
 1. DFS:
 - use the entry, entry, exit, exit rule in dfs (see code for reference)
 - time complexity: O(V+E)
-- connected components using DFS 
+- connected components and their number using DFS 
 - finding cyclicity using DFS 
-- 
+- matrix problems related to graphs:
+    - the matrix is not the Adjancency matrix of the graph 
+    - we have to encode the matrix in the form of graph, using the conditions given in the problem 
+    - after the encoding, we can solve the graph problem  
