@@ -1,0 +1,35 @@
+types of solutions:
+- recursive solution (top to down approach) (generally exponential time complexity)
+- memoisation solution (top to down approach) (generally linear time complexity)
+- tabulation (bottom to top approach) (generally linear time complexity)
+- space optimization (bottom to top approach) (used for space)
+
+basics while writing tabulation:
+- total number of states (n)
+- breaking condition for safety (sometimes used for safety)
+[the below is the flow of writing the tabulation]
+- state array (array for storing answers for all the states)
+- initial states (which we already declare before hand)
+- final states (states for which we are calculating answer in the for loop)
+- validity of final states
+- temp answer (answer which is used for minimization/maximization and then alloted to state array)
+- previous states (states used for calulating the final state)
+- validity of previous states
+- transition (cost incured from previous state to final state)
+- cost equation (total cost needed considering the way from previous state to final state)
+- optimization equation (equation used for finding the needed temp answer)
+- final state answer allotment
+
+type of questions:
+- normal questions on states and transitions, involving min/max cost 
+- questions involving subsequence and subarrays 
+- continous states problems + backward tracking (see the coin change 1 problem)
+- continous states problem + backward tracking + final-prev state exhange due to repeatation (see the coin change 2 problem)
+- 
+
+keywords:
+- min/max from all possible ways 
+- 
+
+
+

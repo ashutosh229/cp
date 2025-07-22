@@ -48,6 +48,10 @@ Traversals:
         - nodes: each cell in the matrix, following some condition (cond1), is a node 
         - edges: from each node, we move in 4 directions (if specified, then 8)(cond2), use some condition (cond3), and make the edge 
         - therefore, we need a cond1 for nodes and cond2 and cond3 for edges
-    - after the encoding, we can solve the graph problem  
+    - after the encoding, we can solve the graph problem 
+- dfs in tree 
+- height of tree nodes 
+- depth of tree nodes 
+-  
 
 

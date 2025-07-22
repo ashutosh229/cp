@@ -13,7 +13,7 @@ void dfs(int vertex, int parent, vector<vector<int>> &adjList)
             continue;
         }
         depth[child] = depth[parent] + 1;
-        dfs(child, vertex);
+        dfs(ch          ild, vertex);
         height[vertex] = max(height[vertex], height[child] + 1)
     }
 }

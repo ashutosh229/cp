@@ -5,13 +5,16 @@ selection sort
 merge sort 
 47 
 48 
-aggressive cows  
+aggressive cows 
 contest 3 
 67
 68
 69 
-76-80 
-
+76-80
+88 - 102 
+coin change 2 
+108-112
+ 
 
 
 
