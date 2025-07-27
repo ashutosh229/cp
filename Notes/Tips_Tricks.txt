@@ -1,0 +1,3 @@
+- finding the largest in something, use the following:
+    - sort (brute)
+    - third variable linear comparison (optimal)
