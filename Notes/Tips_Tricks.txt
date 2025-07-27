@@ -1,3 +1,26 @@
-- finding the largest in something, use the following:
+- finding the kth largest/smallest in something, use the following:
     - sort (brute)
-    - third variable linear comparison (optimal)
+    - third variable linear comparison (optimal) (but for smaller values of k)
+    - multi pass method (optimal) (but for higher values of k)
+
+- checking sorted:
+    -  use third variable comparison and check for switches
+
+- duplicates checking/duplicates removal/duplicates count/etc:
+    - ordered set (if sorted is important) (brute)
+    - unordered set (if not important) (brute)
+    - two pointer approach (optimal)
+
+- array rotation concepts:
+    - terminal wale elememts ko store karlo temp array mein 
+    - internal elements ko push kardo inside the array for rotation  
+    - terminal elememts ko last(left rotate)/first(right rotate) mein push kardo (brute)
+    - use observation based on reversal (optimal)
+
+important:
+- we can copy containers from each other using:
+    - constructer 
+    - copy method 
+-   
+
+
