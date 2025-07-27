@@ -24,10 +24,23 @@
     - removal duplicate in sorted array
     - union of sorted arrays 
 
+- xor
+    - finding missing number 
+    - finding single number 
+
 -union and intersection operations of arrays:
     - padhna hain
 
-- 
+- subarrays:
+    - brute force generation 
+    - 
+
+- pairs in array:
+    - brute force generation (brute)
+    - hashing (optimal)
+    - sorting with two pointers (for two sum)
+    - others, depending on the problem 
+    
 
 
 
