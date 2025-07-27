@@ -23,7 +23,13 @@
     - shift to the end  
     - removal duplicate in sorted array
     - union of sorted arrays 
-    - intersection of sorted arrays 
+
+-union and intersection operations of arrays:
+    - padhna hain
+
+- 
+
+
 
 
 
