@@ -17,10 +17,23 @@
     - terminal elememts ko last(left rotate)/first(right rotate) mein push kardo (brute)
     - use observation based on reversal (optimal)
 
+- two-pointer:
+    - order maintain 
+    - switch 
+    - shift to the end  
+    - removal duplicate in sorted array
+    - union of sorted arrays 
+    - intersection of sorted arrays 
+
+
+
 important:
 - we can copy containers from each other using:
     - constructer 
     - copy method 
--   
+- jab bhi samajh na ayein loop kaise lagana hain then infinite while loop lagake break karde 
+- union and intersection of two ordered sets take linear time and the functions used are set_union and set_intersection 
+- 
+
 
 
