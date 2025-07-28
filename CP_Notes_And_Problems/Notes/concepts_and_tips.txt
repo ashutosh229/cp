@@ -1,13 +1,13 @@
 inbuilt functions:
-swap(a,b);
-max(a,b);
-min(a,b);
+swap(a,b); O(1)
+max(a,b); O(1)
+min(a,b); O(1)
 __gcd(a,b);
 pow(x,y);
 sqrt(n);
-minmax_element(arr, arr + n) {returns reference, so need to *}
-numOfDigits(n) = log10(n) + 1
-number of steps needed to reduce n to 0 via division by x = logx(n)
+minmax_element(arr, arr + n) {returns reference, so need to *}; O(n)
+numOfDigits(n) = log10(n) + 1; O(1)
+number of steps needed to reduce n to 0 via division by x = logx(n); O(1)
 __builtin_popcount(j) counts the number of set bits in j if j is int type 
 __builtin_popcountll(j) counts the number of set bits in j if j is long long int type 
 

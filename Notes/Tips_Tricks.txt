@@ -2,6 +2,7 @@
     - sort (brute)
     - third variable linear comparison (optimal) (but for smaller values of k)
     - multi pass method (optimal) (but for higher values of k)
+    - finding left or right leaders in the array (use technique of continuous max/min)
 
 - checking sorted:
     -  use third variable comparison and check for switches
@@ -44,6 +45,12 @@
 - rearranging the array in terms of pairs:
     - seperate in two arrays and then join both of them accordingly 
     - use two pointers approach
+
+- longest/shortest consecutive subsequence, adhering to some condition:  (traverse and halt method)
+    - traverse the array and while traversing check the condition:
+        - if true, then perform operations 
+        - if false, then give halt and restart and also find the answer
+    - return the answer
 
 
 
