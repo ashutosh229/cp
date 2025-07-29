@@ -1,11 +1,11 @@
 inbuilt functions:
+size(); O(1)
 swap(a,b); O(1)
 max(a,b); O(1)
 min(a,b); O(1)
 __gcd(a,b);
 pow(x,y);
 sqrt(n);
-minmax_element(arr, arr + n) {returns reference, so need to *}; O(n)
 numOfDigits(n) = log10(n) + 1; O(1)
 number of steps needed to reduce n to 0 via division by x = logx(n); O(1)
 __builtin_popcount(j) counts the number of set bits in j if j is int type 
@@ -25,6 +25,7 @@ lower_bound and upper_bound can be applied to pairs, strings also
 
 min_element(initial_address, final_address) //returns address (pointer for array and iterator for vector) // n 
 max_element(initial_address, final_address) //returns address (pointer for array and iterator for vector) // n
+minmax_element(arr, arr + n) {returns reference, so need to *}; O(n)
 accumulate(initial_address, final_address, initial_sum) //returns the sum(container) + initial_sum // n
 count(initial_address, final_address, element) //returns the count of the element // n
 reverse(initial_address, final_address); //reverses the vector/array on point // n

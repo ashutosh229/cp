@@ -47,6 +47,7 @@
 - subarray length, with some condition (sum/other):
 
 - subarray count, with some condition (sum/other):
+    - prefix sum + hashing
 
 - subarray property (sum/other), with some condition (maximum/other):
 
@@ -54,10 +55,10 @@
 
 - permutation/subarray/subsequence:
 
-- pairs in array:
+- pairs/triplets/quadralets/further in array: {as the size increases, the time and space complexity increases}
     - brute force generation (brute)
     - hashing (optimal)
-    - sorting with two pointers (for two sum)
+    - sorting with pointers (better)
     - others, depending on the problem
 
 - rearranging the array in terms of pairs:
@@ -81,7 +82,8 @@ important:
     - copy method 
 - jab bhi samajh na ayein loop kaise lagana hain then infinite while loop lagake break karde 
 - union and intersection of two ordered sets take linear time and the functions used are set_union and set_intersection 
-- 
+- pascals triangle theory is an important implementation based question 
+
 
 
 
