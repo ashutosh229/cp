@@ -22,6 +22,10 @@
     - see the code for the logic 
     - we can rotate any matrix by any angle, of clockwise or anticlockwise sense
 
+- matrix traversal concepts:
+    - given with some traversal conditions, then use top, bottom, left and right variables and then traverse accordingly 
+    - use loops to make restrictions 
+
 - two-pointer:
     - order maintain 
     - switch 
@@ -39,6 +43,16 @@
 - subarrays:
     - brute force generation 
     - brute force continuous sum generation
+
+- subarray length, with some condition (sum/other):
+
+- subarray count, with some condition (sum/other):
+
+- subarray property (sum/other), with some condition (maximum/other):
+
+- subarray printing, with some condition (maximum/other), on some property(sum/other):
+
+- permutation/subarray/subsequence:
 
 - pairs in array:
     - brute force generation (brute)
