@@ -33,21 +33,22 @@
     - removal duplicate in sorted array
     - union of sorted arrays 
 
-- xor
-    - finding missing number 
-    - finding single number 
+- xor/hashmap
+    - finding missing number (freq=0)
+    - finding single number (freq=1)
+    - finding repeated number (freq=2)
+    - if range is given, then use summation also possible for the above questions
+    - brute solutions: generate all counts and checks
 
 -union and intersection operations of arrays:
     - padhna hain
 
-- subarrays:
-    - brute force generation 
-    - brute force continuous sum generation
-
 - subarray length, with some condition (sum/other):
 
 - subarray count, with some condition (sum/other):
-    - prefix sum + hashing
+    - brute force generation (brute)
+    - brute force continuous parameter generation (better)
+    - prefix sum + hashing (optimal)
 
 - subarray property (sum/other), with some condition (maximum/other):
 
@@ -71,6 +72,9 @@
         - if false, then give halt and restart and also find the answer
     - return the answer
 
+- intervals related problems:
+    - 
+
 
 
 
@@ -83,7 +87,10 @@ important:
 - jab bhi samajh na ayein loop kaise lagana hain then infinite while loop lagake break karde 
 - union and intersection of two ordered sets take linear time and the functions used are set_union and set_intersection 
 - pascals triangle theory is an important implementation based question 
-
+- class ke andar comparator function ko as static likhna hian while using sort 
+- solving xor equations using xor properties
+     - x^y = z (when two of them is given)
+     - x^y = z (when one of them is given)
 
 
 
