@@ -43,16 +43,16 @@
 -union and intersection operations of arrays:
     - padhna hain
 
-- subarray length, with some condition (sum/other):
+- subarray length, with some condition (sum/xor/product/other):
 
-- subarray count, with some condition (sum/other):
+- subarray count, with some condition (sum/product/xor/other):
     - brute force generation (brute)
     - brute force continuous parameter generation (better)
     - prefix sum + hashing (optimal)
 
-- subarray property (sum/other), with some condition (maximum/other):
+- subarray property (sum/product/xor/other), with some condition (maximum/other):
 
-- subarray printing, with some condition (maximum/other), on some property(sum/other):
+- subarray printing, with some condition (maximum/other), on some property(sum/product/xor/other):
 
 - permutation/subarray/subsequence:
 
@@ -75,6 +75,14 @@
 - intervals related problems:
     - 
 
+- merge sort modifications:
+    - counting inversions 
+    - reverse pairs 
+
+- binary search:
+    - 
+
+    
 
 
 
