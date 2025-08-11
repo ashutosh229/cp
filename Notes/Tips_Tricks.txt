@@ -80,7 +80,27 @@
     - reverse pairs 
 
 - binary search:
-    - 
+    - framework:
+        - sorted system:
+            - ascending: apply as it is 
+            - descending: apply by reversing the conditions 
+        - comparator value
+        - mid value:
+            - low value 
+            - high value
+        - ans (should have some default value)
+        - condition 
+        - 3 inner conditions 
+        - 3 inner computations
+         
+    - approach:
+        - conventional
+        - predicate 
+
+    - type:
+        - loop 
+        - recursion 
+        
 
     
 
