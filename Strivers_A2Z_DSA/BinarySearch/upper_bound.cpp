@@ -11,18 +11,18 @@ public:
         while (low <= high)
         {
             mid = low + (high - low) / 2;
-            if (arr[mid] < target)
+            if (arr[mid] == target)
             {
                 low = mid + 1;
             }
-            else if (arr[mid] > target)
+            else if (arr[mid] < target)
             {
-                ans = mid;
-                high = mid - 1;
+                low = mid + 1;
             }
             else
             {
-                low = mid + 1;
+                high = mid - 1;
+                ans = mid;
             }
         }
 
