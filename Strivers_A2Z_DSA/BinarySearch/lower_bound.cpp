@@ -20,7 +20,7 @@ public:
             else if (target == arr[mid])
             {
                 ans = mid;
-                high = mid - 1;
+                return ans;
             }
             else
             {
