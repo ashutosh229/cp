@@ -3,13 +3,6 @@ class Solution
 public:
     int findPeakElement(vector<int> &nums)
     {
-        /*
-        strictly greater than the neighbours
-
-
-
-        index return
-        */
         long long NEG_INF = (long long)INT_MIN - 1;
         int n = nums.size();
         int low = 0;
