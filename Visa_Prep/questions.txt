@@ -1,0 +1,66 @@
+monotonic triplets  
+card deck sorting  
+moisture smoothing  
+sky scrapers problem  
+
+alternating digit sum  
+array pair equivalence   
+find smallest local maximum  
+grid path with teleporters  
+
+string toggle case  
+alphabetically smallest string 
+data segment optimization  
+protein y pattern transformation   
+
+lamps problem  
+paragraphs problem  
+conversionRate problem  
+easy problem  
+
+bird nest and forest  
+molecular reactor 
+chatmessage problem  
+(one repeated problem)  
+
+(one repeated problem)  
+solving 4*4 puzzle  
+(one repeated problem)  
+grid problem  
+
+snake game problem  
+text and author problem  
+digital library problem  
+(one repeated problem)  
+black and white rows problem  
+
+heights and viewing gap problem  
+library book circulation tracker  
+space station problem  
+
+LCP problem  
+recording problem  
+drone delivery system  
+cargo problem  
+inventory problem  
+sheet paper grid
+
+
+srategy:
+take question  
+take solution  
+check for correctness on sample tests  
+if yes then done
+    - later on, check for overall correctness  
+    - later on, check for time complexity and 
+if no then leave
+    - solve it properly  
+
+
+
+
+
+
+    
+    
+
