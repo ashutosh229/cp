@@ -1,0 +1,20 @@
+# .vscode
+# CP_Notes_And_Problems/.vscode
+# CP_Notes_And_Problems/Notes
+# CSES/.vscode
+# Notes
+# Strivers CP sheet/.vscode
+# Visa_Prep  
+
+# Ignore everything
+*
+.*
+
+# But don't ignore .gitignore itself
+!.gitignore
+
+# Allow all directories (needed to traverse folder structure)
+!*/
+
+# Allow only .cpp files
+!*.cpp
