@@ -28,8 +28,9 @@ int main(){
         b = 2*b; 
         if (a>b){
             cout << year << endl;
+            return 0;
         }
     } 
-    
+
     return 0;
 }
