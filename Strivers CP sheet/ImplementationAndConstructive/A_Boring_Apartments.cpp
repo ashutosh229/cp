@@ -64,15 +64,15 @@ int main(){
     while (t--){
         long long x; 
         cin>>x; 
-        long long digit = x%10; 
-        long long pos = floor(log10(x)) + 1; 
-        long long ans = (digit-1)*10;
+        long long digit = x%10; //9
+        long long pos = floor(log10(x)) + 1; //4
+        long long ans = (digit-1)*10; // 80
 
         if (pos==1)
         ans = ans + 1; 
-        else if (pos=2)
+        else if (pos==2)
         ans = ans + 3; 
-        else if (pos=3)
+        else if (pos==3)
         ans = ans + 6; 
         else 
         ans = ans + 10;

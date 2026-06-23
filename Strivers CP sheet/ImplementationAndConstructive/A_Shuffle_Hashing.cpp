@@ -23,6 +23,8 @@ a - 4
 b - 2 
 c - 1
 
+does h contain (permutation of string p) as substr
+
 
 
 

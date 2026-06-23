@@ -23,7 +23,7 @@ int main(){
 
     string ans = "";
     for (auto& ch: s){
-        if (ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' || ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+        if (ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' || ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='y' || ch=='Y')
         continue; 
         else{
             ans.push_back('.'); 
