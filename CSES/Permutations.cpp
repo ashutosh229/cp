@@ -1,54 +1,81 @@
-// #include<iostream>
-// #include <algorithm>
-// #include<vector>
-// using namespace std;
+/*
+1,2,3,4...n 
 
-// bool isAllowed(vector<int> arr){
-//   int n = arr.size();
-//   n = n - 1;
-//   for (int i = 1; i <= n-1;i++){
-//     int diff = abs(arr[i] - arr[i - 1]);
+permutate such that no adjacent elements whose diff is 1 
 
-//     if (diff == 1)
-//       return false;
-//   }
-//   return true;
-// }
-// int main(){
-//   int n;
-//   cin>>n;
-//   vector<int> arr(n+1,0);
-//   for (int i = 1; i <= n;i++){
-//     arr[i] = i;
-//   }
-//   do {
-//         if(isAllowed(arr))
-//           break;
-//     } while (std::next_permutation(arr.begin(), arr.end()));
+goal: 
+- to find such permutation
+*/
 
-// for(auto value:arr){
-//   cout << value << " ";
-// }
-//     return 0;
+/*
+input:
+1 - n = [1,10pow6]
 
-// }
+output: 
+1 - NO SOLUTION / permutation
 
-#include<iostream>
-using namespace std;
+algo:
+n=1
+1
+
+n=2,3 
+no solution
+
+n>=4 
+even rakho, odd rakho
+
+
+tc: n
+sc: 1
+*/
+
+/*
+
+n = 8
+2 4 6 8
+1 3 5 7
+
+
+
+ 
+
+
+ 
+
+
+
+*/
+
+#include<bits/stdc++.h>
+using namespace std; 
 
 int main(){
-  int n;
-  cin >> n;
-  if(n==2 || n==3){
+  long long n; 
+  cin>>n; 
+
+  if (n==1){
+    cout << 1 << endl;
+  }
+  else if(n==2 || n==3){
     cout << "NO SOLUTION" << endl;
   }
   else{
-    for (int i = 2; i <= n;i=i+2)
-      cout << i << " ";
-    for (int i = 1; i <= n;i=i+2)
-      cout << i << " ";
+    long long evenbound = n/2; 
+    long long oddbound; 
+    if (n%2)
+    oddbound = evenbound; 
+    else
+    oddbound = evenbound-1;
 
-    cout << endl;
+    for (long long i=1;i<=evenbound;i++){
+      cout << 2*i << " ";
+    }
+    for (long long i=0;i<=oddbound;i++){
+      cout << 2*i+1 << " ";
+    }
   }
+
+  cout << endl;
+
   return 0;
 }
